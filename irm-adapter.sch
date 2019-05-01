@@ -136,9 +136,9 @@ $Comp
 L Connector:Conn_01x04_Male J5
 U 1 1 5CA2F021
 P 3850 1250
-F 0 "J5" V 3912 1394 50  0000 L CNN
-F 1 "Conn_01x04_Male" V 4003 1394 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 3850 1250 50  0001 C CNN
+F 0 "J5" V 3800 1150 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 3800 450 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3850 1250 50  0001 C CNN
 F 3 "~" H 3850 1250 50  0001 C CNN
 	1    3850 1250
 	0    1    1    0   
@@ -147,9 +147,9 @@ $Comp
 L Connector:Conn_01x04_Male J4
 U 1 1 5CA31266
 P 3750 2200
-F 0 "J4" V 3904 1912 50  0000 R CNN
-F 1 "Conn_01x04_Male" V 3813 1912 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 3750 2200 50  0001 C CNN
+F 0 "J4" V 3700 2200 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 3700 2900 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3750 2200 50  0001 C CNN
 F 3 "~" H 3750 2200 50  0001 C CNN
 	1    3750 2200
 	0    -1   -1   0   
@@ -182,4 +182,50 @@ Connection ~ 3650 1850
 Wire Wire Line
 	3650 1850 3850 1850
 Connection ~ 3650 2000
+$Comp
+L Connector:Conn_01x04_Female J7
+U 1 1 5CBB5F4F
+P 4250 1250
+F 0 "J7" V 4300 1150 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 4300 1250 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4250 1250 50  0001 C CNN
+F 3 "~" H 4250 1250 50  0001 C CNN
+	1    4250 1250
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J6
+U 1 1 5CBB959B
+P 4150 2200
+F 0 "J6" V 4200 2200 50  0000 R CNN
+F 1 "Conn_01x04_Female" V 4200 2100 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4150 2200 50  0001 C CNN
+F 3 "~" H 4150 2200 50  0001 C CNN
+	1    4150 2200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3950 1450 4050 1450
+Connection ~ 3950 1450
+Wire Wire Line
+	4150 1450 4250 1450
+Wire Wire Line
+	4350 1450 4250 1450
+Connection ~ 4250 1450
+Wire Wire Line
+	4150 1450 4050 1450
+Connection ~ 4150 1450
+Connection ~ 4050 1450
+Wire Wire Line
+	3950 2000 4050 2000
+Connection ~ 3950 2000
+Wire Wire Line
+	4150 2000 4050 2000
+Connection ~ 4050 2000
+Wire Wire Line
+	4350 2000 4250 2000
+Wire Wire Line
+	4250 2000 4150 2000
+Connection ~ 4250 2000
+Connection ~ 4150 2000
 $EndSCHEMATC
